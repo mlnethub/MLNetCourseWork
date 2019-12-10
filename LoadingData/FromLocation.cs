@@ -1,3 +1,4 @@
+
 namespace LoadingData
 {
     public class FromLocation
