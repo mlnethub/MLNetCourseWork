@@ -17,3 +17,5 @@ This assignment illustrates a binary classifier used to predict prevalence of he
 # Assignment 5: Digit / Handwritten Character Recognition
 This assignment involves taking the MNIST dataset and creating a model that can predict handwritten characters. 
 ![](digit_recognition_results.png)
+
+# Assignment 6: Spam Detection
