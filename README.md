@@ -35,3 +35,6 @@ On training and evaluating the model, we get the following results:
 * PositiveRecall: also called ‘Recall’, this is the fraction of positive predictions out of all positive cases. This is a good metric to use when the cost of a false negative is high.
 * NegativePrecision: this is the fraction of negative predictions that are correct.
 * NegativeRecall: this is the fraction of negative predictions out of all negative cases.
+
+## Case Study: Detecting Toxic Lingua
+In this case study, I build a model that flags toxic comments (rude, disrespectful or likely to make someone leave) in a discussion. Using a dataset from Wikipedia's page comments downloaded from kaggle.com. 
