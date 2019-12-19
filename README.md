@@ -37,4 +37,15 @@ On training and evaluating the model, we get the following results:
 * NegativeRecall: this is the fraction of negative predictions out of all negative cases.
 
 ## Case Study: Detecting Toxic Lingua
-In this case study, I build a model that flags toxic comments (rude, disrespectful or likely to make someone leave) in a discussion. Using a dataset from Wikipedia's page comments downloaded from kaggle.com. 
+In this case study, I build a model that flags toxic comments (rude, disrespectful or likely to make someone leave) in a discussion. Using a dataset from Wikipedia's page comments downloaded from kaggle.com. Here's a description of the categories:
+* toxic: 1 if the comment is toxic, 0 if it is not
+* severe_toxic: 1 if the comment is severely toxic, 0 if it is not
+* obscene: 1 if the comment is obscene, 0 if it is not
+* threat: 1 if the comment is threatening, 0 if it is not
+* insult: 1 if the comment is insulting, 0 if it is not
+* identity_hate: 1 if the comment expresses identity hatred, 0 if it does not
+
+### Notes 
+In *multi-class classification*, we have one basic assumption that our data can belong to only one label out of all the labels we have. For example, a given picture of a fruit may be an apple, orange or guava only and not a combination of these.
+
+In *multi-label classification*, data can belong to more than one label simultaneously. For example, in our case a comment may be toxic, obscene and insulting at the same time. It may also happen that the comment is non-toxic and hence does not belong to any of the six labels.
