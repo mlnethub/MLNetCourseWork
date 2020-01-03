@@ -4,7 +4,7 @@ Data Science With C# And ML.NET Course Assignments
 ## Assignment 1: Loading Data
 This assignment illustrates various data cleaning techniques including:
 * Scaling / normalizing numeric units to lower (natural) ranges to help our model converge quickly to a solution
-* One-hot encoding 
+* One-hot encoding
 * Binning for geo-date
 
 ## Assignment 2: Heart Disease Binary Classifier
@@ -15,7 +15,7 @@ This assignment illustrates a binary classifier used to predict prevalence of he
 ## Assignment 4: Fraud Detection
 
 ## Assignment 5: Digit / Handwritten Character Recognition
-This assignment involves taking the MNIST dataset and creating a model that can predict handwritten characters. 
+This assignment involves taking the MNIST dataset and creating a model that can predict handwritten characters.
 ![](digit_recognition_results.png)
 
 ## Assignment 6: Spam Detection
@@ -46,7 +46,7 @@ In this case study, I build a model that flags toxic comments (rude, disrespectf
 * insult: 1 if the comment is insulting, 0 if it is not
 * identity_hate: 1 if the comment expresses identity hatred, 0 if it does not
 
-### Notes 
+### Notes
 In *multi-class classification*, we have one basic assumption that our data can belong to only one label out of all the labels we have. For example, a given picture of a fruit may be an apple, orange or guava only and not a combination of these.
 
 In *multi-label classification*, data can belong to more than one label simultaneously. For example, in our case a comment may be toxic, obscene and insulting at the same time. It may also happen that the comment is non-toxic and hence does not belong to any of the six labels.
@@ -54,4 +54,7 @@ In *multi-label classification*, data can belong to more than one label simultan
 ## Assignment 7: Predicting Titanic Survivors
 In this assignment, I attempt to predict survivors on the titanic. This assignment alo includes a Jupyter notebook to illustrate new feature support for Jupyter Notebooks in .Net.
 ![](titanic_prediction_results.png)
+
+## Assignment 8: Predicting Bike Demand
+In this assignment, I attempt to predict the demand for bikes in Washington DC.
 
