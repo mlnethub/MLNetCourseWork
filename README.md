@@ -56,5 +56,28 @@ In this assignment, I attempt to predict survivors on the titanic. This assignme
 ![](titanic_prediction_results.png)
 
 ## Assignment 8: Predicting Bike Demand
-In this assignment, I attempt to predict the demand for bikes in Washington DC.
+In this assignment, I attempt to predict the demand for bikes in Washington DC. We use The FastForest learner algorithm to train the model. This algorithm uses gradient boosting to build a forest of weak decision trees.
+
+"Gradient boosting builds a stack of weak decision trees. It starts with a single weak tree that tries to predict the bike demand. Then it adds a second tree on top of the first one to correct the error in the first tree. And then it adds a third tree on top of the second one to correct the output of the second tree. And so on."
+
+Below is a description of the Features in the dataset:
+* Instant: the record index
+* Date: the date of the observation
+* Season: the season (1 = springer, 2 = summer, 3 = fall, 4 = winter)
+* Year: the year of the observation (0 = 2011, 1 = 2012)
+* Month: the month of the observation ( 1 to 12)
+* Hour: the hour of the observation (0 to 23)
+* Holiday: if the date is a holiday or not
+* Weekday: the day of the week of the observation
+* WorkingDay: if the date is a working day
+* Weather: the weather during the observation (1 = clear, 2 = mist, 3 = light snow/rain, 4 = heavy rain)
+* Temperature : the normalized temperature in Celsius
+* ATemperature: the normalized feeling temperature in Celsius
+* Humidity: the normalized humidity
+* Windspeed: the normalized wind speed
+* Casual: the number of casual bike users at the time
+* Registered: the number of registered bike users at the time
+* Count: the total number of rental bikes in operation at the time
+
+
 
