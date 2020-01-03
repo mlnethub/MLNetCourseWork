@@ -78,6 +78,10 @@ Below is a description of the Features in the dataset:
 * Casual: the number of casual bike users at the time
 * Registered: the number of registered bike users at the time
 * Count: the total number of rental bikes in operation at the time
+![](bike-demand-results.png)
+
+## Assignment 9: Iris Flower Clustering
+![](iris-flower-results.png)
 
 
 
