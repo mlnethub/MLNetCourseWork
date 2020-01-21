@@ -4,7 +4,7 @@ Data Science With C# And ML.NET Course Assignments
 ## Assignment 1: Loading Data
 This assignment illustrates various data cleaning techniques including:
 * Scaling / normalizing numeric units to lower (natural) ranges to help our model converge quickly to a solution
-* One-hot encoding 
+* One-hot encoding
 * Binning for geo-date
 
 ## Assignment 2: Heart Disease Binary Classifier
@@ -15,7 +15,7 @@ This assignment illustrates a binary classifier used to predict prevalence of he
 ## Assignment 4: Fraud Detection
 
 ## Assignment 5: Digit / Handwritten Character Recognition
-This assignment involves taking the MNIST dataset and creating a model that can predict handwritten characters. 
+This assignment involves taking the MNIST dataset and creating a model that can predict handwritten characters.
 ![](digit_recognition_results.png)
 
 ## Assignment 6: Spam Detection
@@ -45,7 +45,7 @@ In this case study, I build a model that flags toxic comments (rude, disrespectf
 * insult: 1 if the comment is insulting, 0 if it is not
 * identity_hate: 1 if the comment expresses identity hatred, 0 if it does not
 
-### Notes 
+### Notes
 In *multi-class classification*, we have one basic assumption that our data can belong to only one label out of all the labels we have. For example, a given picture of a fruit may be an apple, orange or guava only and not a combination of these.
 
 In *multi-label classification*, data can belong to more than one label simultaneously. For example, in our case a comment may be toxic, obscene and insulting at the same time. It may also happen that the comment is non-toxic and hence does not belong to any of the six labels.
@@ -55,7 +55,38 @@ In this assignment, I attempt to predict survivors on the titanic. This assignme
 
 ![](titanic_prediction_results.png)
 
+<<<<<<< HEAD
 ## Assignment 8: Moview Recommendations
 ![](movie-recommender-results.png)
+=======
+## Assignment 8: Predicting Bike Demand
+In this assignment, I attempt to predict the demand for bikes in Washington DC. We use The FastForest learner algorithm to train the model. This algorithm uses gradient boosting to build a forest of weak decision trees.
+
+"Gradient boosting builds a stack of weak decision trees. It starts with a single weak tree that tries to predict the bike demand. Then it adds a second tree on top of the first one to correct the error in the first tree. And then it adds a third tree on top of the second one to correct the output of the second tree. And so on."
+
+Below is a description of the Features in the dataset:
+* Instant: the record index
+* Date: the date of the observation
+* Season: the season (1 = springer, 2 = summer, 3 = fall, 4 = winter)
+* Year: the year of the observation (0 = 2011, 1 = 2012)
+* Month: the month of the observation ( 1 to 12)
+* Hour: the hour of the observation (0 to 23)
+* Holiday: if the date is a holiday or not
+* Weekday: the day of the week of the observation
+* WorkingDay: if the date is a working day
+* Weather: the weather during the observation (1 = clear, 2 = mist, 3 = light snow/rain, 4 = heavy rain)
+* Temperature : the normalized temperature in Celsius
+* ATemperature: the normalized feeling temperature in Celsius
+* Humidity: the normalized humidity
+* Windspeed: the normalized wind speed
+* Casual: the number of casual bike users at the time
+* Registered: the number of registered bike users at the time
+* Count: the total number of rental bikes in operation at the time
+![](bike-demand-results.png)
+
+## Assignment 9: Iris Flower Clustering
+![](iris-flower-results.png)
+
+>>>>>>> ecedd879b2885192ed92b1a71b20ef4fd1f17bab
 
 
