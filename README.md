@@ -37,7 +37,6 @@ On training and evaluating the model, we get the following results:
 * NegativeRecall: this is the fraction of negative predictions out of all negative cases.
 
 ## Case Study: Detecting Toxic Comments
-// Case study still incomplete
 In this case study, I build a model that flags toxic comments (rude, disrespectful or likely to make someone leave) in a discussion. Using a dataset from Wikipedia's page comments downloaded from kaggle.com. Here's a description of the categories:
 * toxic: 1 if the comment is toxic, 0 if it is not
 * severe_toxic: 1 if the comment is severely toxic, 0 if it is not
@@ -52,6 +51,11 @@ In *multi-class classification*, we have one basic assumption that our data can 
 In *multi-label classification*, data can belong to more than one label simultaneously. For example, in our case a comment may be toxic, obscene and insulting at the same time. It may also happen that the comment is non-toxic and hence does not belong to any of the six labels.
 
 ## Assignment 7: Predicting Titanic Survivors
-In this assignment, I attempt to predict survivors on the titanic. This assignment alo includes a Jupyter notebook to illustrate new feature support for Jupyter Notebooks in .Net.
+In this assignment, I attempt to predict survivors on the titanic. This assignment alo includes a Jupyter notebook to illustrate new feature support for Jupyter Notebooks in .Net:
+
 ![](titanic_prediction_results.png)
+
+## Assignment 8: Moview Recommendations
+![](movie-recommender-results.png)
+
 
